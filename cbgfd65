@@ -1,0 +1,4 @@
+
+sed -i -e "s/^pruning *=.*/pruning = \"custom\"/;\
+s/^pruning-keep-recent *=.*/pruning-keep-recent = \"$pruning_keep_recent\"/;\
+s/^pruning-interval *=.*/pruning-interval = \"$pruning_interval\"/" $HOfME/.celestia-app/config/app.toml
